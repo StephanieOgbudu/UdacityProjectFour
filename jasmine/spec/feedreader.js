@@ -105,7 +105,7 @@ $(function() {
         });
         it('entry to be defined', function()
         {
-            expect($('.entry')).toBeDefined();
+            expect($('.feed.entry')).toBeDefined();
         });
     });
         
@@ -125,11 +125,11 @@ $(function() {
             {
                 firstEntry = $('.feed').find(allFeeds.url);
                 done();
-            });
-            loadFeed(1, function()
-            {
-                secondEntry = $('.feed').find(allFeeds.url);
-                done();
+                loadFeed(1, function()
+                {
+                    secondEntry = $('.feed').find(allFeeds.url);
+                    done();
+                });
             });
         });
         it('new feed', function()

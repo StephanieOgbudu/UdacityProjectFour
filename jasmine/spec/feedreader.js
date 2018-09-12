@@ -123,10 +123,10 @@ $(function() {
             $('.feed').empty();
             loadFeed(0, function()
             {
-                firstEntry = $('.feed').find(allFeeds.url);
+                firstEntry = $('.feed').html();
                 loadFeed(1, function()
                 {
-                    secondEntry = $('.feed').find(allFeeds.url);
+                    secondEntry = $('.feed').html();
                     done();
                 });
             });

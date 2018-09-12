@@ -133,6 +133,8 @@ $(function() {
         });
         it('new feed', function()
         {
+            console.log(firstEntry);
+            console.log(secondEntry);
             expect(firstEntry).not.toBe(secondEntry);
         });
     });

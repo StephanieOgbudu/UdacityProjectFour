@@ -12,3 +12,6 @@ The Test Suites are RSS Feeds, The Menu & Initial Entries.
 5. Test that ensures the menu changes visibility when the menu icon is clicked.
 6. Test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container.
 7. Test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.
+
+# How to run this project
+Kindly clone this repository, load the index.html file in the browser
